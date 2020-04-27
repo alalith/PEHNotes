@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<node>
+<version>6</version>
+<id>fcb7a931-f4d2-4b9d-89d2-b7e167a5401b</id>
+<dict>
+  <key>title</key><string>Google Fu</string>
+  <key>nodeid</key><string>fcb7a931-f4d2-4b9d-89d2-b7e167a5401b</string>
+  <key>modified_time</key><integer>1587688712</integer>
+  <key>version</key><integer>6</integer>
+  <key>content_type</key><string>text/xhtml+xml</string>
+  <key>created_time</key><integer>1587688397</integer>
+  <key>info_sort_dir</key><integer>1</integer>
+  <key>order</key><integer>8</integer>
+  <key>info_sort</key><string>order</string>
+</dict>
+</node>
