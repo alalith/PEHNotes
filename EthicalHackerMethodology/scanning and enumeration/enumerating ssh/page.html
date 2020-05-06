@@ -1,0 +1,12 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Enumerating SSH</title>
+</head><body>All you can enumerate in SSH is version number<br/>
+Any attempts to login is considered exploitation<br/>
+<br/>
+ssh [ip] -oKexAlgoirthms=+diffie-hellman-group1-sha1 -c aes128-cbc<br/>
+<br/>
+When logging in, you can sometimes find a banner<br/>
+</body></html>

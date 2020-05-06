@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Enumerating SMB</title>
+</head><body>What is SMB? File share<br/>
+Used internally, so may be able to obtain internal access through SMB<br/>
+How to enumerate? Use metasploit<br/>
+<br/>
+search smb<br/>
+<img src="image.png" /><br/>
+Find auxiliary/scanner/smb/smb_version<br/>
+info - gives info about the module, and what options needed<br/>
+<img src="image 2.png" /><br/>
+set RHOSTS [ip] - sets the remote host, the ip you are attacking<br/>
+<br/>
+type run to run module<br/>
+<img src="image 3.png" /><br/>
+<br/>
+<br/>
+<br/>
+Connecting to SMB with anonymous access:<br/>
+connecting using <b>smbclient<br/>
+</b><b>-L </b>to list shares<br/>
+<b>smbclient -L \\\\[ip]\\<br/>
+</b><img src="image 4.png" /><br/>
+<br/>
+Using <b>smbclient \\\\[ip]\\sharename</b>&nbsp;to try to connect to each share<br/>
+<img src="image 2 2.png" /><br/>
+<img src="image 3 2.png" /><br/>
+<br/>
+Looks like we have access, but running ls fails, not able to enumerate<br/>
+<img src="image 4 2.png" /><br/>
+<br/>
+<br/>
+<br/>
+</body></html>

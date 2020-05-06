@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Scanning with Nmap</title>
+</head><body>sudo netdiscover -r [subnet]<br/>
+Uses ARP to detect all the machines on the &nbsp;network<br/>
+Example:<br/>
+<img src="image.png" /><br/>
+<br/>
+Alternatively, use nmap -sP [subnet] to host discover<br/>
+Example:<br/>
+<img src="image 2.png" /><br/>
+<br/>
+nmap -sS (stealth scan, not actually stealthy anymore is actually easily detectable)<br/>
+Why is it called a stealth scan?<br/>
+Instead of doing the full TCP handshake (SYN SYNACK ACK) it will send a reset after it has deteremined a port is opened or closed, so it does not actually establish a connection (SYN SYNACK RST)<br/>
+<br/>
+nmap -sU (port scan over UDP, takes a while since it is a connectionless protocol; only scan top 1000)<br/>
+nmap -T4 -p- -A <br/>
+-T4 = Speed, 1 is slowest, 5 is fastest (4 is a good default, the slower the better in terms of detection)<br/>
+-p- = &nbsp;I want to scan all ports (leaving off -p will scan the top 1000 ports, -p 80,443 will scan only 80 and 443)<br/>
+-A = Scan everything (version information, OS information, anything nmap can tell you ) (recommend scanning a -p- without -A, determine which ports are open, and -A on the specified ports that you found in the last scan)<br/>
+<br/>
+Example:<br/>
+<img src="image 3.png" /><br/>
+<br/>
+</body></html>

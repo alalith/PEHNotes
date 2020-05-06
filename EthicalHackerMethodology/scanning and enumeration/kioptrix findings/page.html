@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kioptrix Findings</title>
+</head><body>80/443 172.16.192.128 - 8:00pm<br/>
+&nbsp;Default webpage Apache, PHP, Redhat Linux<br/>
+<br/>
+Information disclosure, 404 webpage<br/>
+Information disclosure, server headers disclose server information<br/>
+<br/>
+80/tcp&#09;open &nbsp;http&#09;&#09;Apache httpd 1.3.20 ((Unix) &nbsp; &nbsp;(Red-Hat/Linux) mod_ssl/2.8.4 OpenSSL/0.9.6b)<br/>
+<br/>
+mod_ssl/2.8.4 - mod_ssl 2.8.7 and lower are vulernable to a remote buffer overflow which may allow a remote shell. http://cve.mitre.org/cgi-bin/cvename.cg?name=CVE-2002-0082, OSVDB-756<br/>
+<br/>
+Webalizer Version 2.01 - http://192.168.57.134/usage/usage_201911.html<br/>
+<br/>
+SMB<br/>
+Unix (Samba 2.2.1a)<br/>
+<br/>
+SSH<br/>
+OpenSSH 2.9p2<br/>
+</body></html>
