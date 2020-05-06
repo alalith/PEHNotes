@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <node>
 <version>6</version>
-<id>f2705b18-9191-4be2-ba94-c61ec98061f5</id>
 <dict>
   <key>title</key><string>Gaining Access</string>
   <key>nodeid</key><string>f2705b18-9191-4be2-ba94-c61ec98061f5</string>
@@ -11,7 +10,7 @@
   <key>content_type</key><string>text/xhtml+xml</string>
   <key>created_time</key><integer>1587654853</integer>
   <key>info_sort_dir</key><integer>1</integer>
-  <key>order</key><integer>2</integer>
+  <key>order</key><integer>3</integer>
   <key>info_sort</key><string>order</string>
 </dict>
 </node>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <node>
 <version>6</version>
-<id>fdf8ea8d-b7ec-4abc-9aae-3e9314309568</id>
 <dict>
   <key>title</key><string>Trash</string>
   <key>nodeid</key><string>fdf8ea8d-b7ec-4abc-9aae-3e9314309568</string>
@@ -9,6 +8,6 @@
   <key>version</key><integer>6</integer>
   <key>content_type</key><string>application/x-notebook-trash</string>
   <key>created_time</key><integer>1587654703</integer>
-  <key>order</key><integer>5</integer>
+  <key>order</key><integer>6</integer>
 </dict>
 </node>

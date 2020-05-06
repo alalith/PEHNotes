@@ -73,10 +73,8 @@
             <key>ids</key><dict>
                 <key>cbe990e8-6b62-4f24-ac91-cfc6f98ae4ff</key><dict>
                     <key>selected_treeview_nodes</key><array>
-                        <string>16170ee9-5f7c-40ec-8cda-19aab68bec7d</string>
                     </array>
                     <key>selected_listview_nodes</key><array>
-                        <string>ddb5fd0f-0d5b-40f0-8b42-339308d3051e</string>
                     </array>
                 </dict>
                 <key>d779004b-c2ae-44a5-be7b-87405f1b6f8f</key><dict>
@@ -100,7 +98,7 @@
                             <key>name</key><string></string>
                         </dict>
                     </array>
-                    <key>current_viewer</key><string>d779004b-c2ae-44a5-be7b-87405f1b6f8f</string>
+                    <key>current_viewer</key><string>cbe990e8-6b62-4f24-ac91-cfc6f98ae4ff</string>
                 </dict>
             </dict>
         </dict>
